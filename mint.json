@@ -5,15 +5,39 @@
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
+  "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#8b5cf6",
+    "primary": "#7c6fff",
     "light": "#a855f7",
-    "dark": "#6d28d9"
+    "dark": "#5b4fd4"
+  },
+  "topbarLinks": [
+    { "name": "Dashboard", "url": "https://aetraai.com/api-dashboard" }
+  ],
+  "topbarCtaButton": {
+    "name": "Get API Key",
+    "url": "https://aetraai.com/api-developer"
   },
   "navigation": [
     {
       "group": "Overview",
       "pages": ["README"]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/chat-completions",
+        "api-reference/api-keys",
+        "api-reference/chat-streaming",
+        "api-reference/memory",
+        "api-reference/pdf-processor"
+      ]
+    },
+    {
+      "group": "Developer AI",
+      "pages": [
+        "developer-ai/overview"
+      ]
     },
     {
       "group": "Architecture",
@@ -23,17 +47,14 @@
       ]
     },
     {
-      "group": "API Reference",
-      "pages": [
-        "api-reference/chat-streaming",
-        "api-reference/pdf-processor"
-      ]
-    },
-    {
       "group": "Integration",
       "pages": [
         "quantumpay-integration/web2-web3-bridge"
       ]
     }
-  ]
+  ],
+  "footerSocials": {
+    "github": "https://github.com/irlan7/aetraai-examples",
+    "website": "https://aetraai.com"
+  }
 }
